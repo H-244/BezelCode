@@ -1,0 +1,303 @@
+/* Import Logo Font */
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Trade+Winds&display=swap');
+/*  */
+/* Import p Font */
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
+/*)(*/
+body
+{
+    background-color: rgb(228, 228, 228);
+    
+}
+p
+{
+    font-family: 'Hind Madurai', sans-serif;
+}
+main
+{
+    background-image: url('../img/intro-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: 100% 100%;
+}
+main h2
+{
+    font-family: 'Trade Winds', cursive;
+    font-size: 4rem;
+    color: white;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar-nav .nav-link,.navbar-brand
+{
+    color: #1180ff !important;
+}
+.nav-item a:hover
+{
+   color: rgb(0, 0, 0) !important;
+   transition: color .5s;
+   transition-duration: 1s;
+}
+.navbar-brand{
+    font-family: 'Trade Winds', cursive;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nameSite:after{
+      content: "###";
+      animation-name: Eid;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      color: white;  
+  
+  }
+  @keyframes Eid
+  {
+    0%{content: "FrontEnd Developer|";}
+    6%{content: "FrontEnd Develop|";}
+    9%{content: "FrontEnd Develo|";}
+    12%{content: "FrontEnd Devel|";}
+    15%{content: "FrontEnd Dev|";}
+    18%{content: "FrontEnd De|";}
+    21%{content: "FrontEnd D|";}
+    24%{content: "FrontEnd |";}
+    27%{content: "FrontEn|";}
+    30%{content: "FrontE|";}
+    33%{content: "Front|";}
+    36%{content: "Fron|";}
+    39%{content: "Fro|";}
+    42%{content: "Fr|";}
+    45%{content: "F|";}
+    46%{content: "|";}
+    48%{content: "B|";}
+    51%{content: "Ba|";}
+    54%{content: "Bac|";}
+    57%{content: "Back|";}
+    60%{content: "BackE|";}
+    63%{content: "BackEn|";}
+    66%{content: "BackEnd|";}
+    69%{content: "BackEnd D|";}
+    72%{content: "BackEnd De|";}
+    75%{content: "BackEnd Deve|";}
+    80%{content: "BackEnd Devel|";}
+    85%{content: "BackEnd Develo|";}
+    89%{content: "BackEnd Develop|";}
+    93%{content: "BackEnd Develope|";}
+    97%{content: "BackEnd Developer|";}
+    100%{content:"BackEnd Developer|";}
+  }
+
+.dataon li
+{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    list-style-type: none;
+}
+.aboutp p
+{
+    font-size: 1.30rem;
+    font-weight: 300;
+}
+.aboutp .hrinblg
+{
+    background-color: #0078ff;
+    width: 7rem;
+    height: .2rem;
+    margin: auto 0;
+}
+.skills .sk2
+{
+  font-size: 1.30rem;
+}
+.skills h2
+{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: .5rem;
+}
+.services h2
+{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.services .hrinblg
+{
+    background-color: #0078ff;
+    width: 3rem;
+    height: .3rem;
+}
+.services-products .ionicon
+{
+    font-size: 5rem;
+    color: #007bff;    
+}
+.alljops .ionicon
+{
+    font-size: 5rem;
+    color: #ffffff;  
+}
+.jops
+{
+    background-image: url('../img/counters-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    overflow: auto;
+}
+.overlayt
+{
+    background-color: rgba(60, 106, 255, 0.6);
+    height: 100%;
+}
+.portfolio
+{
+    overflow: hidden;
+}
+.portfolio .hrinblg
+{
+    background-color: #0078ff;
+    width: 3rem;
+    height: .3rem;
+}
+.portfolio  h2
+{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+.portfolio .product-portfolio img
+{
+    transition: scale(1.1);
+    transition-duration: 1s;
+}
+.product-portfolio img:hover
+{
+    transform: scale(1.2);
+}
+.product-portfolio .plusicon
+{
+    font-size: 2.2rem;
+    color: #0078ff;
+}
+.slider-one
+{
+    background-image: url('../img/overlay-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.img-slider img
+{
+    border-radius: 50%;
+}
+.overlayth
+{
+    background-color: rgba(19, 180, 255, 0.3);
+
+}
+.overlayth h2
+{
+    padding: 2rem;
+}
+.overlayth ion-icon
+{
+    font-size: 2.5rem;
+    color: #0078ff;
+}
+.blog-one a img
+{
+    border-radius: 50%;
+    width: 10%;
+   
+}
+.blog-one a
+{
+    text-decoration: none;
+}
+.info-blog h2
+{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.hrinblg
+{
+    background-color: #0078ff;
+    width: 40px;
+    height: 5px;
+    margin: 0 auto;
+}
+footer
+{
+    background-image: url('../img/overlay-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
+    
+}
+.overlayfooter
+{
+    background-color: rgba(00, 78, 255, 0.8);
+    height: 100%;
+}
+.container-footer1
+{
+   z-index: 2;
+}
+.container-footer1 .btn
+{
+    border-radius: 3%;
+}
+footer .icons-footer span
+{
+    font-size: .9rem;
+    font-weight: 500;
+}
+footer .icons-footer ion-icon
+{
+    color: #0078ff;
+    
+}
+
+footer .iconslst
+{
+    color: rgba(60, 106, 255, 0.8);
+}
+footer .iconslst i
+{
+    padding-right: .5rem;
+    transition: scale(1.2);
+    transition-duration: .5s;
+
+}
+footer .iconslst i:hover
+{
+  transform: scale(1.2);
+  color: rgb(33, 0, 221);
+}
+
+.copyright-last h3
+{
+    font-size: .8rem;
+    color: rgb(255, 255, 255);
+}
+.copyright-last h3 span
+{
+    font-size: .9rem;
+}
+footer .hrinblg
+{
+    background-color: #0078ff;
+    width: 6rem;
+    height:  .2rem;
+    margin:auto 0 ;
+}
